@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+        <body>
+            <form action="" method="post">
+                <h1>My Registration Form</h1>
+                <label for="first_name">First Name:</label>
+                <input type="text" id="first_name" name="first_name"><br>
+               
+                <label for="last_name">Last Name:</label>
+                <input type="text" id="last_name" name="last_name"><br>
+               
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email"><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"><br>
+                <label for="pw_confirm">PW Confirmation:</label>
+                <input type="password" id="pw_confirm" name="password_confirmation"> <br>
+
+                <label for="Birthday">Birthday:</label>
+                <input type="date" id="birth" name="bday" max="1979-12-31" placeholder="mm/dd/yyyy"><br>
+               
+                
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male">
+               
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female">
+
+                <h3>A short description about yourself:</h3>
+                <textarea name="description"></textarea>
+
+                <p>Favorite Language
+                    <select name="Language">
+                        <option value="javascript">JavaScript</option>
+                        <option value="pyhton">Python</option>
+                    </select>
+                </p>
+                <audio controls>
+                    <source src="horse.ogg" type="audio/ogg">
+                    <source src="horse.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                  </audio>
+               <input type="submit" value="Submit">
+            </form>
+        </body>
+</html>
